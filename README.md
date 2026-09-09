@@ -66,7 +66,8 @@ fotsing.local
 ├── OU-Ordinateurs
 │
 └── OU-Serveurs
-🔹 Serveurs
+
+## Serveurs
 Serveur |	Rôle |	Adresse IP
 Serveur1 |	Active Directory / DNS / DHCP / fichiers |	192.168.1.5
 DC02	Contrôleur de domaine secondaire |	192.168.1.11
