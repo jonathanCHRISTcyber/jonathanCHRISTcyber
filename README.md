@@ -68,11 +68,12 @@ fotsing.local
 └── OU-Serveurs
 
 ## Serveurs
-Serveur |	Rôle |	Adresse IP
-Serveur1 |	Active Directory / DNS / DHCP / fichiers |	192.168.1.5
-DC02	Contrôleur de domaine secondaire |	192.168.1.11
-Ubuntu-SOC |	Wazuh / supervision sécurité |	192.168.1.10
-pfSense |	Routage / pare-feu |	192.168.1.254
+|Serveur |	Rôle |	Adresse IP
+|---|---|---|
+|Serveur1 |	Active Directory / DNS / DHCP / fichiers |	192.168.1.5
+|DC02	Contrôleur de domaine secondaire |	192.168.1.11
+|Ubuntu-SOC |	Wazuh / supervision sécurité |	192.168.1.10
+|pfSense |	Routage / pare-feu |	192.168.1.254
 
 ### Environnement
 
