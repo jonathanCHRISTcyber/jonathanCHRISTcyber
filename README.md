@@ -1,11 +1,11 @@
-# 🔐 Infrastructure IT & Cybersecurity Lab
+# Infrastructure IT & Cybersecurity Lab
 
  > Lab personnel d'administration systèmes, réseaux et cybersécurité
  > basé sur Windows Server, Active Directory, Linux, pfSense et Wazuh.
 
 ---
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Ce projet consiste à construire et administrer une infrastructure
 informatique complète dans un environnement de laboratoire.
@@ -28,7 +28,7 @@ L'objectif est de mettre en pratique des compétences en :
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Environnement
 
