@@ -50,6 +50,7 @@ d'entreprise avec plusieurs services Windows et Linux.
 Le domaine `fotsing.local` est organisé avec plusieurs unités
 d'organisation :
 
+```text
 fotsing.local
 │
 ├── OU-Utilisateurs
@@ -59,19 +60,20 @@ fotsing.local
 │   ├── Comptabilité
 │   └── Stagiaire
 │
-├── OU-Groupe
+├── OU-Groupes
 │   ├── OU-DL
 │   └── OU-GG
 │
 ├── OU-Ordinateurs
 │
 └── OU-Serveurs
+```
 
 ## Serveurs
 |Serveur |	Rôle |	Adresse IP
 |---|---|---|
 |Serveur1 |	Active Directory / DNS / DHCP / fichiers |	192.168.1.5
-|DC02	Contrôleur de domaine secondaire |	192.168.1.11
+|DC02 |	Contrôleur de domaine secondaire |	192.168.1.11
 |Ubuntu-SOC |	Wazuh / supervision sécurité |	192.168.1.10
 |pfSense |	Routage / pare-feu |	192.168.1.254
 
@@ -90,3 +92,6 @@ fotsing.local
 Domaine : fotsing.local
 NetBIOS : FOTSING
 
+> Active Directory
+Mise en place du domaine `fotsing.local`, des OU, des utilisateurs
+et des groupes de sécurité.
