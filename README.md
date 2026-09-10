@@ -12,19 +12,20 @@ informatique complète dans un environnement de laboratoire.
 
 L'objectif est de mettre en pratique des compétences en :
 
-- Administration Windows Server
-- Active Directory
-- DNS
-- Gestion des utilisateurs et groupes
-- Gestion des permissions NTFS
-- Partage de fichiers
-- Sauvegarde et restauration
-- Réplication
-- Administration Linux
-- Pare-feu et réseau
-- Supervision et détection de sécurité
-- SIEM avec Wazuh
-- Journalisation et audit
+- Déployer une infrastructure Windows Server
+- Mettre en place un domaine Active Directory
+- Organiser les utilisateurs et les ordinateurs avec des OU
+- Créer et gérer des groupes de sécurité
+- Mettre en place un serveur de fichiers
+- Sécuriser les accès aux données avec les permissions NTFS
+- Mettre en place la réplication DFS
+- Configurer les sauvegardes
+- Mettre en place Shadow Copy / VSS
+- Activer l'audit de sécurité Windows
+- Déployer un serveur Wazuh
+- Installer et connecter des agents Wazuh
+- Mettre en place une infrastructure réseau avec pfSense
+- Tester la connectivité et la résolution DNS
 
 ---
 
@@ -79,7 +80,7 @@ fotsing.local
 
 ### Environnement
 
-| Machine | Rôle | IP |
+| Machine | Rôle | IP |.
 |---|---|---|
 | Serveur1 | Windows Server / AD DS / DNS / fichiers | 192.168.1.5 |
 | DC02 | Contrôleur de domaine secondaire | 192.168.1.11 |
@@ -95,3 +96,5 @@ NetBIOS : FOTSING
 > Active Directory
 Mise en place du domaine `fotsing.local`, des OU, des utilisateurs
 et des groupes de sécurité.
+
+![Architecture réseau](images/architecture.png)
