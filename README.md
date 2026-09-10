@@ -80,7 +80,7 @@ fotsing.local
 
 ### Environnement
 
-| Machine | Rôle | IP |.
+| Machine | Rôle | IP |
 |---|---|---|
 | Serveur1 | Windows Server / AD DS / DNS / fichiers | 192.168.1.5 |
 | DC02 | Contrôleur de domaine secondaire | 192.168.1.11 |
