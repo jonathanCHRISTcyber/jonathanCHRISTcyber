@@ -97,4 +97,6 @@ NetBIOS : FOTSING
 Mise en place du domaine `fotsing.local`, des OU, des utilisateurs
 et des groupes de sécurité.
 
+## 📸 Architecture du laboratoire
+
 ![Architecture réseau](images/architecture.png)
