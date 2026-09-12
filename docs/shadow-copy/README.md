@@ -96,7 +96,7 @@ ici nous validons les clichés instantanés, Nous pouvons voir qu'il y'a eu une 
   <img src="images/09-validons-les-cliches-instantane-pour-la-retauration.png" width="850">
 </p> 
 <p align="center">
-  <img src="images/08-nous-pouvons-voir-qu'il-y'a-eu-une-action-a15-nous-allons-cliquer-sur-creer.png" width="850">
+  <img src="./images/08-nous-pouvons-voir-qu'il-y'a-eu-une-action-a15-nous-allons-cliquer-sur-creer.png" width="850">
 </p>
 
 ---
