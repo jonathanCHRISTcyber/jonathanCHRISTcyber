@@ -124,4 +124,4 @@ modifiée ou supprimée.
 
 [⬅️ Retour au projet principal](../../README.md)
 
-[📁 Serveur de fichiers →](../serveur-fichiers/README.md)
+[📁 ubuntu →](../ubuntu/README.md)
