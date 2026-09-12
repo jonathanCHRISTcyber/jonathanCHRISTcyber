@@ -33,7 +33,7 @@ Nous commençons par accéder aux propriétés du volume contenant
 les données et configurons les clichés instantanés.
 
 <p align="center">
-  <img src="images/01-configurer les fichiers instantanée pour la restauration.png" width="850">
+  <img src="images/01-configurer-les-fichiers-instantanée-pour-la-restauration.png" width="850">
 </p>
 
 ---
@@ -44,7 +44,7 @@ Nous créons un dossier permettant de vérifier le fonctionnement
 de Shadow Copy.
 
 <p align="center">
-  <img src="images/02-ici nous avons notre dossier tests creer.png" width="850">
+  <img src="images/02-ici-nous-avons-notre-dossier-tests-creer.png" width="850">
 </p>
 
 ---
@@ -55,7 +55,7 @@ Nous définissons l'espace maximal pouvant être utilisé pour
 les clichés instantanés.
 
 <p align="center">
-  <img src="images/03-ici on definit une taille" width="850">
+  <img src="images/03-ici-on-definit-une-taille.png" width="850">
 </p>
 
 ---
@@ -65,7 +65,7 @@ les clichés instantanés.
 Nous configurons la planification des clichés instantanés.
 
 <p align="center">
-  <img src="images/04-ici on planifie" width="850">
+  <img src="images/04-ici-on-planifie" width="850">
 </p>
 
 ---
@@ -76,7 +76,7 @@ Nous effectuons ensuite une modification du fichier afin de
 vérifier qu'une version précédente peut être récupérée.
 
 <p align="center">
-  <img src="images/05-la nous pouvons voir qu'il possibiliter de revenir à la version precedenter" width="850">
+  <img src="images/05-la-nous-pouvons-voir-qu'il-possibiliter-de-revenir-à-la-version-precedenter" width="850">
 </p>
 
 ---
@@ -86,17 +86,17 @@ vérifier qu'une version précédente peut être récupérée.
 Nous activons nos clichés instantané
 
 <p align="center">
-  <img src="images/06-nous activons les clichés instantanée" width="850">
+  <img src="images/06-nous-activons-les-clichés-instantanée" width="850">
 </p>
 
 ---
 ## 🔄 Restauration
 ici nous validons les clichés instantanés, Nous pouvons voir qu'il y'a eu une action
 <p align="center">
-  <img src="images/09-validons les cliches instantane pour la retauration" width="850">
+  <img src="images/09-validons-les-cliches-instantane-pour-la-retauration" width="850">
 </p> 
 <p align="center">
-  <img src="images/08-nous pouvons voir qu'il y'a eu une action a15.. nous allons cliquer sur creer" width="850">
+  <img src="images/08-nous-pouvons-voir-qu'il-y'a-eu-une-action-a15-nous-allons-cliquer-sur-creer" width="850">
 </p>
 
 ---
