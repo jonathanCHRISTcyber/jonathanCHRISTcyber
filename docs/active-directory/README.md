@@ -161,8 +161,12 @@ DNS
 Gestion centralisée des identités
 Gestion des permissions
 Administration système
-🔗 Navigation
 
 <p align="center">
   <img src="./images/nous-lancons-son-installation.png" width="850">
 </p>
+
+🔗 Navigation
+[⬅️ Retour au projet principal](../../README.md)
+
+[📁 audit  →](../audit de sécurité/README.md)

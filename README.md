@@ -100,3 +100,4 @@ et des groupes de sécurité.
 ## 📸 Architecture du laboratoire
 
 ![Architecture réseau](images/architecture.png)
+
