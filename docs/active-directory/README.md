@@ -108,7 +108,8 @@ L'utilisation des groupes permet d'adopter une gestion centralisée des permissi
 
 Exemple :
 
-```OU Informatique
+```
+OU Informatique
        │
        ├── Groupe GG-Informatique
        │        │
