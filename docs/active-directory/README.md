@@ -169,4 +169,4 @@ Administration système
 🔗 Navigation
 [⬅️ Retour au projet principal](../../README.md)
 
-[📁 audit  →](../audit de sécurité/README.md)
+[📁 audit de sécurité →](../audit de sécurité/README.md)
