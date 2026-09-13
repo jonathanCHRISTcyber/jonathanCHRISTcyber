@@ -48,81 +48,82 @@ fotsing.local
     └── GPO-Postes
 ```
 
+# 1️⃣ Création du lecteur réseau
 
-#  Création d'une nouvelle GPO
+Nous commençons par préparer le lecteur réseau qui sera
+accessible aux utilisateurs concernés.
 
-Nous créons une nouvelle stratégie de groupe qui sera utilisée
-pour appliquer une configuration spécifique aux postes ou aux
-utilisateurs.
+<p align="center"> <img src="./images/creation-de-notre-lecteur-mappé.png" width="850"> </p>
+
+# 2️⃣ Création de la première GPO
+
+Nous créons une première stratégie de groupe destinée à
+notre projet.
 
 <p align="center"> <img src="./images/creation-de-notre-premiere-gpo-pour-notre-projet.png" width="850"> </p>
 
-#  Création d'une GPO liée à une OU
+# 3️⃣ Création du lecteur mappé
 
-La GPO peut être liée à une unité d'organisation afin que les
-paramètres soient appliqués uniquement aux utilisateurs ou
-ordinateurs concernés.
+Nous configurons ensuite le lecteur réseau qui sera déployé
+automatiquement auprès des utilisateurs.
 
-<p align="center"> <img src="./images/creation-d'une-etendue.png" width="850"> </p>
+<p align="center"> <img src="./images/ICI-nous-avons-creer-notre-lecteur-mappé.png" width="850"> </p>
+🎯 Ciblage de la stratégie
 
-#  Configuration de la stratégie
+# 4️⃣ Ciblage sur un groupe
 
-Nous modifions ensuite les paramètres de la stratégie de groupe.
-
-<p align="center"> <img src="./images/mettre-a-jour-la-strategie-de-groupe.png" width="850"> </p>
-👥 Ciblage des utilisateurs
-
-#  Ciblage d'un groupe
-
-Nous pouvons cibler une stratégie de groupe sur un groupe
-d'utilisateurs spécifique.
-
-Cette méthode permet d'appliquer une configuration uniquement
-aux utilisateurs concernés.
+Nous définissons un ciblage permettant d'appliquer la stratégie
+uniquement aux utilisateurs appartenant au groupe concerné.
 
 <p align="center"> <img src="./images/ici-nous-realisons-un-ciblage-sur-le-groupe.png" width="850"> </p>
-💻 Configuration des postes
 
-#  Configuration du lecteur réseau
+Cette méthode permet d'éviter d'appliquer une GPO à l'ensemble
+des utilisateurs du domaine.
 
-Dans cette partie, nous configurons un lecteur réseau qui pourra
-être automatiquement accessible par les utilisateurs concernés.
+# 5️⃣ Liaison de la GPO
 
-<p align="center"> <img src="./images/creation-de-notre-lecteur-mappe.png" width="850"> </p>
+Nous lions ensuite la GPO à l'objet ou à l'unité d'organisation
+concernée.
 
-#  Définition de l'emplacement du lecteur
+<p align="center"> <img src="./images/lier-la-gpo-à-un-objet-de-strategie-de-groupe.png" width="850"> </p>
 
-Nous définissons l'emplacement réseau qui sera utilisé par
-la stratégie.
+📁 Configuration du lecteur partagé
+
+# 6️⃣ Définition de l'emplacement
+
+Nous indiquons l'emplacement du lecteur réseau qui sera utilisé
+par les utilisateurs.
 
 <p align="center"> <img src="./images/notre-lecteur-et-son-emplacement.png" width="850"> </p>
 
-#  Configuration du dossier partagé
+# 7️⃣ Ciblage du dossier partagé
 
-Nous configurons ensuite le chemin du dossier partagé auquel
-le lecteur réseau doit accéder.
+Nous configurons le chemin vers le dossier partagé.
 
-<p align="center"> <img src="./images/nous-ciblons-notre-lecteur-dans-le-dossier-partage.png" width="850"> </p>
-🧪 Application de la GPO
+<p align="center"> <img src="./images/nous-ciblons-notre-lecteur-dans-le-dossier-partagé.png" width="850"> </p>
 
-#  Mise à jour des stratégies
+# 8️⃣ Configuration du partage
 
-Après avoir configuré la GPO, nous pouvons forcer l'actualisation
-des stratégies sur le poste client.
+Nous réalisons ensuite le ciblage du lecteur partagé afin que
+la ressource soit accessible uniquement aux utilisateurs
+concernés.
+
+<p align="center"> <img src="./images/nous-realisons-le-ciblage-du-lecteur-partagé.png" width="850"> </p>
+
+🔄 Actualisation de la stratégie
+
+# 9️⃣ Mise à jour de la stratégie de groupe
+
+Après avoir configuré notre GPO, nous pouvons forcer la mise
+à jour des stratégies sur le poste client.
+
+La commande utilisée est :
 
 gpupdate /force
+<p align="center"> <img src="./images/mettre-à-jour-la-strategie-de-groupe.png" width="850"> </p>
 
-Cette commande permet de demander immédiatement au poste de
-récupérer et d'appliquer les stratégies de groupe mises à jour.
-
-🔎 Vérification
-
-Nous pouvons vérifier les stratégies appliquées avec :
-
-gpresult /r
-
-Cette commande permet d'afficher les stratégies de groupe
-appliquées à l'utilisateur et à l'ordinateur.
+Cette commande permet de demander immédiatement au poste
+client de récupérer les dernières stratégies disponibles.
 
 🧪 Tests
 
