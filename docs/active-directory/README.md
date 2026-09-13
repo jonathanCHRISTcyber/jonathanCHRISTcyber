@@ -24,7 +24,7 @@ Domaine : fotsing.local
 NetBIOS : FOTSING
 
 L'organisation des utilisateurs et des groupes est structurée à l'aide d'unités d'organisation.
----
+'''
 fotsing.local
 │
 ├── OU-Utilisateurs
@@ -41,7 +41,7 @@ fotsing.local
 ├── OU-Ordinateurs
 │
 └── OU-Serveurs
----
+'''
 ⚙️ Installation d'Active Directory
 1️⃣ Installation du rôle AD DS
 
