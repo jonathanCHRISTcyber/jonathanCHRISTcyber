@@ -24,7 +24,7 @@ Domaine : fotsing.local
 NetBIOS : FOTSING
 
 L'organisation des utilisateurs et des groupes est structurée à l'aide d'unités d'organisation.
-'''
+```
 fotsing.local
 │
 ├── OU-Utilisateurs
@@ -41,7 +41,7 @@ fotsing.local
 ├── OU-Ordinateurs
 │
 └── OU-Serveurs
-'''
+```
 ⚙️ Installation d'Active Directory
 1️⃣ Installation du rôle AD DS
 
@@ -79,7 +79,7 @@ Les utilisateurs sont ensuite associés aux groupes correspondant à leur servic
 Cette organisation permet de simplifier l'administration des droits d'accès.
 
 Par exemple :
-
+```
 Utilisateur
      │
      ▼
@@ -90,6 +90,7 @@ Permissions
      │
      ▼
 Ressource
+```
 🗂️ Organisation avec les OU
 
 Les utilisateurs, groupes, ordinateurs et serveurs sont organisés dans différentes Unités d'Organisation (OU).
@@ -107,7 +108,7 @@ L'utilisation des groupes permet d'adopter une gestion centralisée des permissi
 
 Exemple :
 
-OU Informatique
+```OU Informatique
        │
        ├── Groupe GG-Informatique
        │        │
@@ -115,7 +116,7 @@ OU Informatique
        │        └── Technicien
        │
        └── Ressources informatiques
-
+```
 L'utilisateur reçoit ses droits principalement à travers son appartenance aux groupes.
 
 🧪 Tests
@@ -160,14 +161,6 @@ Gestion centralisée des identités
 Gestion des permissions
 Administration système
 🔗 Navigation
-
-🏠 Retour au menu principal
-
-📁 Serveur de fichiers →
-
-🕐 Shadow Copy →
-
-🔄 DFS →
 
 <p align="center">
   <img src="./images/nous-lancons-son-installation.png" width="850">
