@@ -2,7 +2,7 @@
 
 Mise en place d'un domaine Active Directory sur Windows Server afin de centraliser l'administration des utilisateurs, des groupes et des ressources d'une infrastructure d'entreprise.
 
-🎯 Objectif
+## 🎯 Objectif
 
 L'objectif de cette partie est de mettre en place une infrastructure Active Directory Domain Services (AD DS) permettant de centraliser la gestion des identités et des ressources du réseau.
 
@@ -43,7 +43,7 @@ fotsing.local
 └── OU-Serveurs
 ```
 ⚙️ Installation d'Active Directory
-1️⃣ Installation du rôle AD DS
+## 1️⃣ Installation du rôle AD DS
 
 Nous commençons par installer le rôle Active Directory Domain Services sur Windows Server.
 
@@ -91,7 +91,7 @@ Permissions
      ▼
 Ressource
 ```
-🗂️ Organisation avec les OU
+## 🗂️ Organisation avec les OU
 
 Les utilisateurs, groupes, ordinateurs et serveurs sont organisés dans différentes Unités d'Organisation (OU).
 
@@ -144,13 +144,13 @@ systeminfo
 
 Permet de consulter différentes informations concernant le système et le domaine.
 
-📸 Résultats
+## 📸 Résultats
 
 Les captures présentées dans cette documentation montrent les différentes étapes de mise en place et d'administration de l'environnement Active Directory.
 
 L'objectif est de démontrer non seulement l'installation du service, mais également son utilisation pour administrer les utilisateurs et les groupes.
 
-🧠 Compétences démontrées
+## 🧠 Compétences démontrées
 Administration Windows Server
 Active Directory Domain Services
 Contrôleur de domaine
