@@ -47,17 +47,9 @@ fotsing.local
     ├── GPO-Utilisateurs
     └── GPO-Postes
 ```
-## 1️⃣ Installation et accès à la gestion des GPO
 
-Nous commençons par accéder à la console de gestion des
-stratégies de groupe.
 
-La console Group Policy Management permet de créer,
-modifier et appliquer les différentes stratégies du domaine.
-
-<p align="center"> <img src="./images/lancement-de-installation.png" width="850"> </p>
-
-# 2️⃣ Création d'une nouvelle GPO
+#  Création d'une nouvelle GPO
 
 Nous créons une nouvelle stratégie de groupe qui sera utilisée
 pour appliquer une configuration spécifique aux postes ou aux
@@ -65,7 +57,7 @@ utilisateurs.
 
 <p align="center"> <img src="./images/creation-de-notre-premiere-gpo-pour-notre-projet.png" width="850"> </p>
 
-# 3️⃣ Création d'une GPO liée à une OU
+#  Création d'une GPO liée à une OU
 
 La GPO peut être liée à une unité d'organisation afin que les
 paramètres soient appliqués uniquement aux utilisateurs ou
@@ -73,14 +65,14 @@ ordinateurs concernés.
 
 <p align="center"> <img src="./images/creation-d'une-etendue.png" width="850"> </p>
 
-# 4️⃣ Configuration de la stratégie
+#  Configuration de la stratégie
 
 Nous modifions ensuite les paramètres de la stratégie de groupe.
 
 <p align="center"> <img src="./images/mettre-a-jour-la-strategie-de-groupe.png" width="850"> </p>
 👥 Ciblage des utilisateurs
 
-# 5️⃣ Ciblage d'un groupe
+#  Ciblage d'un groupe
 
 Nous pouvons cibler une stratégie de groupe sur un groupe
 d'utilisateurs spécifique.
@@ -91,21 +83,21 @@ aux utilisateurs concernés.
 <p align="center"> <img src="./images/ici-nous-realisons-un-ciblage-sur-le-groupe.png" width="850"> </p>
 💻 Configuration des postes
 
-# 6️⃣ Configuration du lecteur réseau
+#  Configuration du lecteur réseau
 
 Dans cette partie, nous configurons un lecteur réseau qui pourra
 être automatiquement accessible par les utilisateurs concernés.
 
 <p align="center"> <img src="./images/creation-de-notre-lecteur-mappe.png" width="850"> </p>
 
-# 7️⃣ Définition de l'emplacement du lecteur
+#  Définition de l'emplacement du lecteur
 
 Nous définissons l'emplacement réseau qui sera utilisé par
 la stratégie.
 
 <p align="center"> <img src="./images/notre-lecteur-et-son-emplacement.png" width="850"> </p>
 
-# 8️⃣ Configuration du dossier partagé
+#  Configuration du dossier partagé
 
 Nous configurons ensuite le chemin du dossier partagé auquel
 le lecteur réseau doit accéder.
@@ -113,7 +105,7 @@ le lecteur réseau doit accéder.
 <p align="center"> <img src="./images/nous-ciblons-notre-lecteur-dans-le-dossier-partage.png" width="850"> </p>
 🧪 Application de la GPO
 
-# 9️⃣ Mise à jour des stratégies
+#  Mise à jour des stratégies
 
 Après avoir configuré la GPO, nous pouvons forcer l'actualisation
 des stratégies sur le poste client.
