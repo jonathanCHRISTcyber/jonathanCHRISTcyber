@@ -1,10 +1,6 @@
-Active Directory
+## Active Directory
 
 Mise en place d'un domaine Active Directory sur Windows Server afin de centraliser l'administration des utilisateurs, des groupes et des ressources d'une infrastructure d'entreprise.
-
-🏠 Retour au menu principal
-
-📁 Serveur de fichiers →
 
 🎯 Objectif
 
@@ -21,7 +17,6 @@ Utilisateurs Active Directory
 Unités d'organisation (OU)
 Contrôleur de domaine
 Windows 10 / Windows 7 clients
-🏗️ Architecture Active Directory
 
 Le domaine utilisé dans le laboratoire est :
 
@@ -29,7 +24,7 @@ Domaine : fotsing.local
 NetBIOS : FOTSING
 
 L'organisation des utilisateurs et des groupes est structurée à l'aide d'unités d'organisation.
-
+---
 fotsing.local
 │
 ├── OU-Utilisateurs
@@ -46,6 +41,7 @@ fotsing.local
 ├── OU-Ordinateurs
 │
 └── OU-Serveurs
+---
 ⚙️ Installation d'Active Directory
 1️⃣ Installation du rôle AD DS
 
