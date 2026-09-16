@@ -395,4 +395,4 @@ Dépannage
 🔗 Navigation
 
 [⬅️ Retour au projet principal](../../README.md)
-[📁 dhcp →](../dhcp/README.md)                                                                                                                                                                                                                                                                                        
+[📁 dhcp →](../dhcp/readme.md)                                                                                                                                                                                                                                                                                        
