@@ -7,16 +7,18 @@ Mise en place de l'audit de sécurité Windows afin de journaliser et contrôler
 L'objectif de cette partie est de mettre en place un mécanisme d'audit de sécurité Windows permettant de suivre les actions effectuées sur les fichiers d'un serveur.
 
 *** L'audit permet notamment d'identifier : ***
-
+```
 quel utilisateur a accédé à une ressource ;
 quelle action a été effectuée ;
 à quel moment l'action a été réalisée ;
 quelle ressource a été concernée ;
 les événements générés par Windows.
+```
 
 Le scénario est réalisé sur un serveur de fichiers Windows Server intégré au domaine Active Directory.
 
 🖥️ Environnement
+```
 Windows Server
 Active Directory
 Serveur de fichiers
@@ -25,6 +27,7 @@ Stratégies de groupe (GPO)
 Observateur d'événements Windows
 Audit des accès aux fichiers
 Domaine fotsing.local
+```
 
 🏗️ Principe de fonctionnement
 
@@ -98,6 +101,7 @@ Une fois la configuration terminée, nous pouvons passer à la phase de test.
 <p align="center"> <img src="./images/notre-audit-est-configurer-passons-au-test.png" width="850"> </p>
 
 📝 Analyse des événements
+
 6️⃣ Ouverture de l'Observateur d'événements
 
 Nous ouvrons ensuite l'Observateur d'événements Windows afin d'analyser les événements générés par notre système d'audit.
@@ -114,6 +118,7 @@ Nous pouvons retrouver l'utilisateur ayant accédé à la ressource surveillée.
 Cette information permet notamment de réaliser une traçabilité des accès aux ressources.
 
 🔐 Audit des manipulations
+
 8️⃣ Configuration de l'audit sur les manipulations
 
 Nous configurons également l'audit permettant de surveiller les différentes opérations réalisées sur les fichiers et dossiers.
@@ -123,6 +128,7 @@ Nous configurons également l'audit permettant de surveiller les différentes op
 L'objectif est de pouvoir identifier les actions réalisées sur les ressources surveillées.
 
 🔄 Mise à jour des stratégies
+
 9️⃣ Actualisation de la stratégie de groupe
 
 Après avoir configuré les paramètres d'audit, nous mettons à jour les stratégies de groupe afin que les modifications soient prises en compte.
@@ -134,6 +140,7 @@ Nous pouvons également utiliser :
 gpupdate /force
 
 Cette commande permet de forcer l'actualisation des stratégies de groupe sur le poste.
+
 Tests réalisés
 
 Le scénario de test suit le processus suivant :
@@ -168,6 +175,7 @@ Les événements générés par Windows peuvent ensuite être consultés dans l'
 Ce mécanisme constitue une base importante pour la supervision et la sécurité d'une infrastructure Windows.
 
 🧠 Compétences démontrées
+```
 Administration Windows Server
 Active Directory
 Stratégies de groupe (GPO)
@@ -180,3 +188,4 @@ Analyse des journaux Windows
 Traçabilité des utilisateurs
 Gestion des événements de sécurité
 gpupdate
+```
