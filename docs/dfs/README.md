@@ -380,7 +380,7 @@ des données et de disposer de plusieurs serveurs contenant une
 copie des ressources répliquées.
 
 🧠 Compétences démontrées
-```
+---
 Administration Windows Server
 DFS Replication
 DFS Namespace
@@ -391,4 +391,9 @@ Synchronisation de fichiers
 Gestion des partages
 Architecture multi-serveurs
 Dépannage
-```
+---
+🔗 Navigation
+
+[⬅️ Retour au projet principal](../../README.md)
+
+[📁 DHCP →](../DHCP/README.md)
