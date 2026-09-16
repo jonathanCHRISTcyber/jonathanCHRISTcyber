@@ -157,3 +157,9 @@ Partages Windows
 gpupdate
 gpresult
 Administration centralisée
+
+🔗 Navigation
+
+[⬅️ Retour au projet principal](../../README.md)
+
+[📁 dfs →](../dfs/README.md)
