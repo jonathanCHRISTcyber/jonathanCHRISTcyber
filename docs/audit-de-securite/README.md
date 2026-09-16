@@ -82,6 +82,7 @@ Nous configurons les événements qui seront surveillés afin de pouvoir analyse
 <p align="center"> <img src="./images/configuration-des-evenement.png" width="850"> </p>
 
 Mise en place du scénario de test
+
 4️⃣ Création du dossier de test
 
 Afin de vérifier le fonctionnement de notre configuration, nous créons un dossier qui sera utilisé pour réaliser les tests d'accès.
