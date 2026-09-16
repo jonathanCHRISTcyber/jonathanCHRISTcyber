@@ -106,7 +106,7 @@ Une fois la configuration terminée, nous pouvons passer à la phase de test.
 
 Nous ouvrons ensuite l'Observateur d'événements Windows afin d'analyser les événements générés par notre système d'audit.
 
-<p align="center"> <img src="./images/nous-passons-à-observateur-d-evenement-afin-de-voir-nos-differents-evenements.png" width="850"> </p>
+<p align="center"> <img src="./images/nous-passons-a-observateur-evenement-afin-de-voir-nos-differents-evenements.png" width="850"> </p>
 
 L'Observateur d'événements permet de consulter les journaux générés par Windows et d'identifier les opérations réalisées sur le système.
 
