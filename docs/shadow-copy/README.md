@@ -5,7 +5,6 @@
 > précédentes des fichiers.
 
 ---
-
 ## 🎯 Objectif
 
 L'objectif est de mettre en place Shadow Copy afin de permettre
@@ -86,7 +85,7 @@ vérifier qu'une version précédente peut être récupérée.
 Nous activons nos clichés instantané
 
 <p align="center">
-  <img src="06-nous-activons-les-clichés-instantanée.png" width="850">
+  <img src="images/06-nous-activons-les-clichés-instantanée.png">
 </p>
 
 ---
